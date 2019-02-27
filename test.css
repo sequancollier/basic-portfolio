@@ -1,0 +1,165 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+body
+{
+    height: 100%;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSExMVFRUXFxgYFxUXFRcXGBcXFxcYFxcXFxcYHSggGBolHRcXITEiJSkrLi4uGh8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRkrKy0tNy0rKysrLS0rKzctKy0rKys3KystNy0tNysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAJhABAQEAAQMCBwEBAQAAAAAAAAERAhIh8EFhMVFxgZHB0bHhof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6x1DqODFDvnZdSCC+y6hdNgK1aZxCg2rTyi4gpVqxZACpqgHQcWgBCQWCqqRA4likBDTOJ6QHV/o6jgwDOS6vZX1Figa6me56UFL7K09I+ygt8/StPKKApVViyAIZVYoCVOK0APsTIgEOo3kopDR3W+wCtQcuSl9QNFn9DWgsMZtpkoKAq0FiFAHpOA7fiAnFQ6JyBYcUqn6AZPP9OfQfMgLPXsqelWoBLqV5eyhkGLupy9gFajN5HfUDRgnzaqCLO0yVRQYYrQWKigDOJ6RrXeAzh4ijqAxfNX2UANaJBQK5VadBmRG2+ef+riAvJQ1qAMFWGwEzY1iv1ASKqnAFErUiwBqPwOoM2mU6yoVolXYDAlAUNEgoGC0ynQZinxVpgM9Xs1E0AwLDYCxlrF7aAkVVNgCja1IpKCxT6BSgkLq2gmrBKtBKfRRrUApPZFRk7RKrQavJnqEQNWq8hiBTl5h6hgkA1KVUFDg39KcgM4q8VotBoSBceQLFRdNtBKrVaCU+h4rQBxYaDOnqEqtBq8mZyEQNWi8liBTl5hl+owYB1arFAWpKIJadEvnn+qGjVZ7r7gqYqO3uCKANRlSqX1AWn0WqgFq0WTz5A1D1M2LPcD1LqZnE3jQa6xvqzZWvUFatWeef4oC1aPPP6ZQVi1ap7oJSiz3Kip1CYBBFA34ITkt7efgGbfdrlV+UAxb53Uo5T5A1qnL2B1A0eefMsyKLqWpSAaJTh6UFolVitUB7DDn1BnlFjeCgNxdS46sBWxadXnwgK8hVYbAC/KyrAJ0fBagrT1ew1SgbQhJFF1eyixcYBEpkORAWrUqoO3nn/h7LFgM2KT0bwcvP4AtXV5+1N+H6WArVp1efAB1GC8WsQFVxYJPPmorFpvEWdwXGldKoFnT9xYg3tZUF1Q6NR9gGmUeefw0F1e6otANcqNVpQGnfPYfhRQ2+rOnjCA6jB0tYgAcUUFi09Ik7gZfP0dGKgRqv1FiDVtClAHRpg+KilOggpfcsHfNBarap5/TgMz6+eehsIoJdhZUBlNHEzQX5GFW0F0rCNBTilUCw0WqQByg6TqwBh7nBJQClagBkmRWgpRTIsBcfPP2GrRYCq7ef4LKvPggYakoqsS2gulZ5pEoKcUvygOCq1YAqkOizzuB7oejSA7juVcUFo4ymGIDie67BQzksWRArPcSa1BagumHBYrVDYsZi+wNAd1AatOs6gKl+LOQ8eIK6Lpuq0F5/wAUoaqAoymq1QcqJKYewDjOypAHV0+dliBchJ82oLUFOMMgVoHEzF5/0DV56/oWHz4qJJINdPnszYkoMGeupIKGhKGLqSQNpiSitiSBWfwJILPRRJRdPqcSQZxRJQ2rjEgSxJBrprN4hKK/gWeqQGDf6kBPUEgdPFJRKfFIAkkFYYko/9k=)
+}
+#header
+{
+    border-bottom-style: solid;
+    border-width: 10px;
+}
+
+
+ #main
+ {
+min-height: 100%;
+background-color: white;
+height: 400px;
+padding-left: 20px;
+padding-right: 20px;
+line-height: 2.0;
+
+ }
+ #heading
+ {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;
+    color: #4aaaa5;
+    
+ }
+ #pic
+ {
+
+float: left;
+width: 100px;
+padding-top: 80px;
+padding-left: 20px;
+ }
+ #paragraph
+ {
+    border-top-style: solid;
+    border-width: 1px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+ }
+ 
+ #box
+ {
+     overflow: auto;
+     padding-bottom: 300px;
+     padding-top: 100px;
+     background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSExMVFRUXFxgYFxUXFRcXGBcXFxcYFxcXFxcYHSggGBolHRcXITEiJSkrLi4uGh8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRkrKy0tNy0rKysrLS0rKzctKy0rKys3KystNy0tNysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAJhABAQEAAQMCBwEBAQAAAAAAAAERAhIh8EFhMVFxgZHB0bHhof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6x1DqODFDvnZdSCC+y6hdNgK1aZxCg2rTyi4gpVqxZACpqgHQcWgBCQWCqqRA4likBDTOJ6QHV/o6jgwDOS6vZX1Figa6me56UFL7K09I+ygt8/StPKKApVViyAIZVYoCVOK0APsTIgEOo3kopDR3W+wCtQcuSl9QNFn9DWgsMZtpkoKAq0FiFAHpOA7fiAnFQ6JyBYcUqn6AZPP9OfQfMgLPXsqelWoBLqV5eyhkGLupy9gFajN5HfUDRgnzaqCLO0yVRQYYrQWKigDOJ6RrXeAzh4ijqAxfNX2UANaJBQK5VadBmRG2+ef+riAvJQ1qAMFWGwEzY1iv1ASKqnAFErUiwBqPwOoM2mU6yoVolXYDAlAUNEgoGC0ynQZinxVpgM9Xs1E0AwLDYCxlrF7aAkVVNgCja1IpKCxT6BSgkLq2gmrBKtBKfRRrUApPZFRk7RKrQavJnqEQNWq8hiBTl5h6hgkA1KVUFDg39KcgM4q8VotBoSBceQLFRdNtBKrVaCU+h4rQBxYaDOnqEqtBq8mZyEQNWi8liBTl5hl+owYB1arFAWpKIJadEvnn+qGjVZ7r7gqYqO3uCKANRlSqX1AWn0WqgFq0WTz5A1D1M2LPcD1LqZnE3jQa6xvqzZWvUFatWeef4oC1aPPP6ZQVi1ap7oJSiz3Kip1CYBBFA34ITkt7efgGbfdrlV+UAxb53Uo5T5A1qnL2B1A0eefMsyKLqWpSAaJTh6UFolVitUB7DDn1BnlFjeCgNxdS46sBWxadXnwgK8hVYbAC/KyrAJ0fBagrT1ew1SgbQhJFF1eyixcYBEpkORAWrUqoO3nn/h7LFgM2KT0bwcvP4AtXV5+1N+H6WArVp1efAB1GC8WsQFVxYJPPmorFpvEWdwXGldKoFnT9xYg3tZUF1Q6NR9gGmUeefw0F1e6otANcqNVpQGnfPYfhRQ2+rOnjCA6jB0tYgAcUUFi09Ik7gZfP0dGKgRqv1FiDVtClAHRpg+KilOggpfcsHfNBarap5/TgMz6+eehsIoJdhZUBlNHEzQX5GFW0F0rCNBTilUCw0WqQByg6TqwBh7nBJQClagBkmRWgpRTIsBcfPP2GrRYCq7ef4LKvPggYakoqsS2gulZ5pEoKcUvygOCq1YAqkOizzuB7oejSA7juVcUFo4ymGIDie67BQzksWRArPcSa1BagumHBYrVDYsZi+wNAd1AatOs6gKl+LOQ8eIK6Lpuq0F5/wAUoaqAoymq1QcqJKYewDjOypAHV0+dliBchJ82oLUFOMMgVoHEzF5/0DV56/oWHz4qJJINdPnszYkoMGeupIKGhKGLqSQNpiSitiSBWfwJILPRRJRdPqcSQZxRJQ2rjEgSxJBrprN4hKK/gWeqQGDf6kBPUEgdPFJRKfFIAkkFYYko/9k=);
+     padding-left: 200px;
+     padding-right: 200px;
+     
+     
+ }
+
+  #blank
+  {
+      background-color: rgb(255, 253, 253);
+      float: left;
+      width: 15%;
+      height: 80px;
+  }  
+  #Name
+  {
+      background-color: #4aaaa5;
+      float: left;
+      width: 15%;
+      height: 80px;
+      color: white;
+      text-align: center;
+      vertical-align: center;
+  }  
+  #navbar
+  {
+      background-color: rgb(255, 253, 253);
+      float: left;
+      width: 70%;
+      height: 80px;
+      text-align: right;
+      color: #777777;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      
+
+  }  
+  
+
+ 
+#footer
+{
+    background-color: #666666;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+    border-width: 10px;
+    border-top-style: solid;
+    border-top-color:#4aaaa5;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+    color: #ffffff;
+
+}
+
+a:link {
+    color: #777777;
+  }
+  
+  
+  a:visited {
+    color: #777777;
+  }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 99%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 1px; /* Add a top margin */
+    margin-bottom: 1px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+  }
+  
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+  }
+  
+  
+  .container {
+    border-radius: 1px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+    
+
+    
+  }
